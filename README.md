@@ -86,7 +86,7 @@ After following all the previous steps, the Letmeask Project will be running in 
 
 PS: Remembering that if you want use the application running in the <a target="_blank">http://localhost:3000</a>(more specifically on your machine) it will be necessary to create an account on [Firebase](https://firebase.google.com/) and a project to use a Realtime Database and save the data.
 
-But, it takes a little work and you can access the version, that was introduce to you along this README, that was created and developed by me and is in production ready to any people use and share with your friends by clicking here <a href="./letmeask-project-d54c6.firebaseapp.com">Letmeask</a>
+But, it takes a little work and you can access the version, that was introduce to you along this README, that was created and developed by me and is in production ready to any people use and share with your friends by clicking here <a target="_blank" href="letmeask-project-d54c6.firebaseapp.com">Letmeask</a>
 
 ## 📝 License
 
