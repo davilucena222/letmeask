@@ -64,4 +64,31 @@ I added features that made the application be more responsive, light and easy to
   </li>
 </ul>
 
+## 💻 How to execute the Letmeask Project on your machine
+
+Clone the project and access the project folder:
+```bash
+$ git clone 
+$ cd letmeask
+```
+To execute Letmeask Project locally follow the steps below:
+```bash
+# Install the dependencies
+$ yarn
+
+# Access .env example archive and according with this archive create a .env.local archive 
+
+# Start the Letmeask Project
+$ yarn start
+```
+
+After following all the previous steps, the Letmeask Project will be running in the link <a>http://localhost:3000</a>. Click it, see and enjoy the application.
+
+PS: Remembering that if you want use the application running in the <a>http://localhost:3000</a>(more specifically on your machine) it will be necessary to create an account on [Firebase](https://firebase.google.com/) and a project to use a Realtime Database and save the data.
+
+But, it takes a little work and you can access the version that was created and developed by me and is in production ready to any people use and share with your friends by clicking in this link <a>https://letmeask-project-d54c6.firebaseapp.com</a>.
+
+## 📝 License
+
+This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
 
