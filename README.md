@@ -7,11 +7,11 @@
 </p>
 
 ## 🔖 Letmeask Layout
-You can confere the project layout by clicking on the image below. The layout was created by <a href="https://www.rocketseat.com.br">Rocketseat</a> and I delveloped the platform adding more functionalities to become interactive and simple to use.
+You can confere the project layout by clicking <a target="_blank" href="https://www.figma.com/community/file/1009824839797878169">here</a>. The layout was created by <a target="_blank" href="https://www.rocketseat.com.br">Rocketseat</a> and I delveloped the platform adding more functionalities to become interactive and simple to use.
 
-<h1 align="center">
-    <img alt="Letmeask" src="https://raw.githubusercontent.com/davilucena222/letmeask/2aac19583e9569b79243acc8b7ac1f3e875e3de5/src/assets/images/Capa.svg" />
-</h1>
+<p align="center">
+    <img alt="Letmeask" src="https://raw.githubusercontent.com/davilucena222/letmeask/2aac19583e9569b79243acc8b7ac1f3e875e3de5/src/assets/images/Capa.svg" target="_blank" />
+</p>
 
 <br>
 
@@ -84,9 +84,9 @@ $ yarn start
 
 After following all the previous steps, the Letmeask Project will be running in the link <a>http://localhost:3000</a>. Click it, see and enjoy the application.
 
-PS: Remembering that if you want use the application running in the <a>http://localhost:3000</a>(more specifically on your machine) it will be necessary to create an account on [Firebase](https://firebase.google.com/) and a project to use a Realtime Database and save the data.
+PS: Remembering that if you want use the application running in the <a target="_blank">http://localhost:3000</a>(more specifically on your machine) it will be necessary to create an account on [Firebase](https://firebase.google.com/) and a project to use a Realtime Database and save the data.
 
-But, it takes a little work and you can access the version, that was introduce to you along this README, that was created and developed by me and is in production ready to any people use and share with your friends by clicking <a href="letmeask-project-d54c6.web.app">here</a>.
+But, it takes a little work and you can access the version, that was introduce to you along this README, that was created and developed by me and is in production ready to any people use and share with your friends by clicking <a target="_blank" href="letmeask-project-d54c6.web.app">here</a>.
 
 ## 📝 License
 
