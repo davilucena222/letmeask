@@ -1,0 +1,86 @@
+-> COMPONENTES
+    -> Componentes são pedaços de páginas da minha aplicação que quando se juntam formam toda a aplicação, cada pedaço da tela pode ser um componente (sidebar, header, interface principal, listas...).
+    -> Componente dentro do react é simplesmente uma função, uma função que devolve um HTML.
+
+-> PROPRIEDADES
+    -> Propriedades são Informações que podem ser passadas ao componente para que ele se comporte de maneiras diferentes.
+    -> Propriedades podem receber qualquer tipo de informação JavaScript.
+
+-> ESTADO
+    -> Estado é uma informação que é mantida por um componente de dentro do react.
+    -> Quando o valor de uma informação é alterada através do uso do usuário dentro da aplicação, isso é chamado de Estado.
+    -> Quando uma informação não permanece com o mesmo valor durante todo o uso da aplicação, isso é um Estado. É armazenado um Estado.
+
+-> IMUTABILIDADE
+    -> Quando uma variável é alterada o seu valor não "muda", é criada uma outra informação com base na informação anterior, ou seja, é como se ela nunca mudasse.
+
+-> CONTEXTOS
+    -> São formas de compartilhar informações entre um mais Componentes.
+
+-> Children
+    -> Todo conteúdo de um componente se chama children (dentro do react em si)
+
+-> Classe em react
+    -> utiliza-se como (className="") devido "class" fazer referência a criação de classes em JavaScript.
+
+-> Aplicações (observações sobre react)
+    import React, { useState } from "react";
+
+    //todas as propriedades do botão
+    // type ButtonProps = {
+    //     //Array<string> -> Parametrização da tipagem ou (string[])
+    //     children?: string;
+    // }
+
+    //mesmo mudando o nome da função a execução no App.tsx ainda continua pegando com (export default Button)
+    //named export (mais eficaz)
+    //todas as propriedades que são enviadas para um componente, elas são enviadas como argumentos da função Botão, do componente Botão
+    export function Button() {
+    // let counter = 0
+
+    //useState() retorna um vetor(array) com duas posições [number(que foi repassado), function]
+    //quando utiliza os colchetes significa que está alterando/desestruturando esse array e dividindo ele em duas variáveis isoladas (variável normal, função que faz a alteração do valor dessa variável)
+    //para alterar o valor de counter se utiliza "setCounter", funciona para qualquer variával
+    const [counter, setCounter] = useState(0) //CRIANDO UMA VARIÁVEL ESTADO
+
+        function increment(){
+            setCounter(counter + 1) //ALTERANDO O VALOR DA VARIÁVEL ESTADO
+        }
+
+        return(
+            //para passar algum código JS ou TS dentro de um HTML é preciso usar chaves
+            // <button>{props.children || 'Default'}</button>
+
+            //as chaves fazem referências a algum conteúdo que está sendo criado acima de return()
+            <button onClick={increment}>
+                {counter}
+            </button>
+        )
+    }
+
+    Quando identificar um componente na sua aplicação em que ele se repete muito está na hora de criar um "component" para retulizar ele ao longo do desenvolvimento.
+
+    Quando quiser representar o retorno de um objeto em forma de array basta utilizar o método "Object.entries(rooms.questions)", ele será responsável por retornar todos os objetos. Como parâmetro ele recebe o que será preciso ser retornado como array, como por exemplo uma sequência/lista de questões.
+
+    -> Hook: Quando algo funcional se repetir dentro da sua aplicação e você quiser reaproveitar tal funcionalidade é recomendado fazer de um hook (funcionalidade), não é algo visual como um componente (função).
+
+    -> ReactNode: É qualquer conteúdo JSX (texto, uma div, outro componente, pode ser qualquer coisa que seja aceitável dentro de um "return").
+
+    -> Fragment ou Fragmento: é um container do react que não é exibido em tela, mas aparece no código da aplicação. É um "migué" para não prejudicar a estilização e o CSS da aplicação em si. Utiliza-se também o Fragment quando tiver dois elementos HTML'S um ao lado do outro, por exemplo uma div, isso é regra do próprio react.
+        -> exemplo
+            <>
+                Qualquer conteúdo aqui dentro...
+            </>
+
+Animação para o react: https://react-hot-toast.com
+React Modal: https://github.com/reactjs/react-modal
+
+
+Algoritmo de reconciliação -> Explica como funciona a propriedade key do react 
+
+
+Acessos ao projeto para a publicação que está no firebase: 
+    -> Project Console: https://console.firebase.google.com/project/letmeask-project-d54c6/overview
+    -> Hosting URL: https://letmeask-project-d54c6.web.app
+    -> Como fazer deploy de uma aplicação firebase: https://firebase.google.com/docs/hosting/quickstart?hl=pt-br
+    -> coolors.co/app (site de cores)

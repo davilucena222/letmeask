@@ -1,17 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
+//local onde a interface é utilizada
+//DOM = Document Object Model -> É uma representação do HTML através de um objeto dentro do JavaScript
+//HTML dentro do JS => TSX/JSX (x -> XML)
+import ReactDOM from 'react-dom';
+import App from './App';
+
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+
+import './services/firebase';
+
+import './styles/global.scss';
+
+//demonstra algo na interface e recebe HTML
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App /> 
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root') //pega o id do index.html e exibe o que está acima (<App />) lá na página HTML de acordo com o que está no arquivo (App.tsx)
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+serviceWorkerRegistration.register();

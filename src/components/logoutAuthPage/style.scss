@@ -1,0 +1,68 @@
+#auth-page-logout {
+    display: flex;
+    margin-top: 4rem;
+    width: 100%;
+    flex-direction: column;
+    
+    > div {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .user-info {
+      display: flex;
+      align-items: center;
+    
+      @media (max-width: 43.75rem) {
+        margin-right: auto;
+      }
+    
+      img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+      }
+      span {
+        margin-left: 1.5rem;
+        font-weight: 700;
+        font-size: 1.7rem;
+      }
+    }
+  
+    button {
+        font-size: 17px;
+        background: transparent;
+        text-decoration: underline;
+        text-decoration: none;
+        height: 50px;
+        border-radius: 8px;
+        font-weight: 500;
+        background: linear-gradient(139.44deg, #485BFF 0%, #FF59F8 96.19%);
+        backdrop-filter: blur(4px);
+        color: #FFF;
+        padding: 0 32px;
+
+        margin-top: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+        border: 0;
+
+        transition: filter 0.2s;
+
+        &.outlined {
+            background: #666;
+            border: 1px solid black;
+            color: #FFF;
+        }
+
+        &:not(disabled):hover {
+            filter: brightness(0.9);
+        }
+    }
+    
+  }
+  
