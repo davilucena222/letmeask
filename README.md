@@ -17,7 +17,7 @@ You can confere the project layout by clicking <a target="_blank" href="https://
 
 ## 🔧 Tecnologies
 
-This project was developed with the following tecnologies:
+This project was developed with the following technologies:
 
 - [React JS](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -27,19 +27,19 @@ This project was developed with the following tecnologies:
 - [Context Api's](https://pt-br.reactjs.org/docs/context.html)
 
 ## 💡 About the project 
-Letmeask is a question and answeres platform made for content creator, streamers and for you that have a product or service to introduce for your public and take it all of the doubts about. Even if you want use the platform Letmeask to play with your friends or family, also it was designated for you, enjoy!
+Letmeask is a question-and-answer platform made for content creators, streamers, and you who have a product or service to introduce to your public and take all of the doubts about. Even if you want to use the platform Letmeask to play with your friends or family, it was designated for you, enjoy!
 
-This Letmeask Project consists in a ranked questions, if a question have most likes than others, this specific questions will be ranked on the top for the administrator and fastest answered. When you create a room, you are able to see two diferent pages, you have access to the page room and administrator room (only the administrator is able delete and mark as answered the question. The administrator also can like the question as the other users), also each room created gain a specific code that you can share with your friends to all of them enter to your room and make questions. When your friend or another people enter for room that you created, his only has access to the page room, because it wasn't him that who created the room first, but he able to send questions for the room.
+This Letmeask Project consists of ranked questions, if a question has more likes than others, this specific question will be ranked at the top for the administrator and fastest answered. When you create a room, you are able to see two different pages, you have access to the page room and administrator room (only the administrator is able to delete and mark as answer the question. The administrator also can like the question as the other users), also each room created to gain a specific code that you can share with your friends to all of them enter to your room and make questions. When your friend or another person enters for room that you created, he only has access to the page room, because it wasn't him who created the room first, but he is able to send questions for the room.
 
 ## 🚀 Added features
-I added features that made the application be more responsive, light and easy to use. Using the tecnologies that was described before it was possible to improve the application to another level. Here the added features.
+I added features that made the application be more responsive, light, and easy to use. Using the technologies that were described before it was possible to improve the application to another level. Here the added features.
 
 <ul>
   <li>
     System warning toasts using react-hot-toast
   </li>
   <li>
-    Responsive application: the screen size adapted easily in all cell phones
+    Responsive application: the screen size adapted easily to all cell phones
   </li>
   <li>
     Dark mode: you can choose the color of the application between dark and light
@@ -57,7 +57,7 @@ I added features that made the application be more responsive, light and easy to
     Optional logout from your Google Account
   </li>
   <li>
-    Warning that you need to login with your Google Account to participate the room and send questions
+    Warning that you need to log in with your Google Account to participate in the room and send questions
   </li>
   <li>
    Alternation to the administrator between the page room and the admin room
@@ -76,17 +76,17 @@ To execute Letmeask Project locally follow the steps below:
 # Install the dependencies
 $ yarn
 
-# Access .env example archive and according with this archive create a .env.local archive 
+# Access .env example archive and according to this archive create a .env.local archive 
 
 # Start the Letmeask Project
 $ yarn start
 ```
 
-After following all the previous steps, the Letmeask Project will be running in the link <a>http://localhost:3000</a>. Click it, see and enjoy the application.
+After following all the previous steps, the Letmeask Project will be running in the link <a>http://localhost:3000</a>. Click it, see it, and enjoy the application.
 
-PS: Remembering that if you want use the application running in the <a target="_blank">http://localhost:3000</a>(more specifically on your machine) it will be necessary to create an account on [Firebase](https://firebase.google.com/) and a project to use a Realtime Database and save the data.
+PS: Remembering that if you want to use the application running in the <a target="_blank">http://localhost:3000</a>(more specifically on your machine) it will be necessary to create an account on [Firebase](https://firebase.google.com/) and a project to use a Realtime Database and save the data.
 
-But, it takes a little work and you can access the version, that was introduce to you along this README, that was created and developed by me and is in production ready to any people use and share with your friends by clicking in the link that is below the section "about" in the top of the repository.
+But, it takes a little work and you can access the version, that was introduced to you along this README, which was created and developed by me and is in production ready for any people to use and share with your friends by clicking in the link that is below the section "about" in the top of the repository.
 
 ## 📝 License
 
